@@ -1,0 +1,21 @@
+footer {
+    background: black;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+
+footer p {
+    font-size: 2vw;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1000px){
+    footer{
+        height: 100%;
+    }
+}
+

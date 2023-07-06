@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Gallery from '../src/composant/gallery';
+import Header from '../src/composant/header';
+import Banner from './composant/banner'
+import Footer from '../src/composant/footer'
+import logo1 from '../src/assets/Background.png';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <Header />
+
+       <Banner image={logo1} text="Chez vous, partout et ailleurs" />
+       
+
+       <Gallery />
+       <Footer />
     </div>
   );
 }
 
 export default App;
+
+
+

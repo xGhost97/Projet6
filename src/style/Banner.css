@@ -1,0 +1,39 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.text-overlay{
+  
+    font-style: normal;
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    left: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+  } 
+  
+  .logo-header{
+   
+    width: 96%;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    filter: brightness(70%);
+    margin: 30px;
+  }
+
+  @media screen and (max-width:1000px) {
+    .logo-header {
+        height: 110px;
+        margin: 0 6px;
+    }
+
+    .text-overlay{
+      width: 100%;
+      height: 150px;
+      font-size: 25px;
+      padding-right: 5px;
+    }
+}
